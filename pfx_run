@@ -2,4 +2,4 @@
 
 source ~/bin/pfx
 
-env OBS_VKCAPTURE=1 ~/.steam/root/steamapps/common/Proton\ Hotfix/proton run "$1"
+~/.steam/root/steamapps/common/Proton\ Hotfix/proton run "$1"
