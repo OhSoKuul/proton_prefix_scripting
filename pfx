@@ -1,0 +1,7 @@
+export STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.steam/steam"
+export STEAM_COMPAT_DATA_PATH="$HOME/.proton_pfx/"
+
+mkdir -p "${STEAM_COMPAT_DATA_PATH}/pfx"
+
+export WINEPREFIX="${STEAM_COMPAT_DATA_PATH}/pfx"
+cd "${WINEPREFIX}"
